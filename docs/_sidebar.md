@@ -1,0 +1,5 @@
+* [Home](/ "QuaBot | Wiki")
+* [Commands](commands/fun.md)
+* [Setup QuaBot](modules/afk.md "QuaBot | Afk")
+* [Modules](modules/afk.md "QuaBot | Afk")
+* [Support Discord](https://quabot.net/redirects/discord.html)

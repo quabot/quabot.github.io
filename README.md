@@ -1,2 +1,3 @@
-# quabot.github.io
-a
+# QuaBot Wiki
+
+This page is for the official quabot wiki.

@@ -1,0 +1,11 @@
+* [Home](/ "QuaBot | Wiki")
+* [Commands](commands/commands.md)
+* Setup QuaBot
+    * [Afk](modules/afk.md "QuaBot | Afk")
+    * [Audits](modules/audits.md "QuaBot | Audits")
+    * [Tickets](modules/tickets.md "QuaBot | Tickets")
+    * [Suggestions & Reports](modules/suggestions-reports.md "QuaBot | Suggestions & Reports")
+    * [Reaction Roles](modules/reactions.md "QuaBot | Reaction Roles")
+    * [Welcome](modules/welcome.md "QuaBot | Welcome")
+* [Modules](modules/afk.md "QuaBot | Afk")
+* [Support Discord](https://quabot.net/redirects/discord.html)
