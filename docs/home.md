@@ -2,8 +2,6 @@
 
 > Create a discord server your way
 
-QuaBot is the bot you need in your server. Our many commands allow you to create the perfect server for you. We have everything you could ask for within a bot, with even more on the way.
+QuaBot is the bot you need in your server. Our many commands allow you to create the perfect server for you. We have everything you could ask for from a bot, with even more on the way.
 
-
-> This wiki is a work-in-progress :)
-NO pages have been checked and most are filled with outdated info from v2
+This wiki is used to display commands and how they can be used. If you want to help extending this wiki, please join [our discord server](https://quabot.net/redirects/discord.html). 

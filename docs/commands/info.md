@@ -1,73 +1,38 @@
 # Info Commands
 
-> Last edited: 3/7/2022 at 7:53PM
+> Last edited: 5/20/2022 at 10:16PM
 
-Info commands are commands used to get statistics, information and loads of other stuff.
+Bot status, ping, info about a user, these are the info commands.
 
-#### `/dependencies`
-List all quabot dependencies.
+#### `/credits`
+View QuaBot's credits.
 
 #### `/help`
-List commands and their descriptions.
+Bot commands.
 
 #### `/info`
-Information about the bot.
+Bot info.
 
-#### `/invite`
-Get a bot invite.
+#### `/ping `
+Bot ping.
 
-#### `/leaderboard`
-Server XP's leadersboard.
-
-#### `/nick [nickname] (user)`
-Change the nickname of a user.
-
-##### Permission
-To change other people's usernames you need the `Manage Nicknames` permission.
-
-#### Example
-- `/nick John`
-- `/nick Edward @Wobbe_`
-
-#### `/online`
-View activity list.
-
-#### `/ping`
-Get bot ping.
-
-#### `/rank [user]`
-Get a user's XP and rank.
-
-#### Example
-- `/rank @Joa_sss`
+#### `/profile (user)`
+Get a user's profile.
 
 #### `/roles`
-List of roles in this guild.
+Server's roles.
 
 #### `/serverinfo`
-Server information.
-
-#### `/servers`
-Bot's server count.
-
-#### `/stats`
-Bot statistics.
+Server's info.
 
 #### `/status`
-Bot's status.
+Bot status.
 
-#### `/support`
-Bot's support discord.
+#### `/user bio`
+Set your profile bio.
 
-#### `/uptime`
-Bot's uptime.
+#### `/user settings`
+Configure your preferences & settings.
 
-#### `/userinfo (user)`
-Information about a user.
-
-#### Example
-- `/userinfo`
-- `/userinfo @Joa_sss`
-
-#### `/wiki`
-Get the wiki URL.
+#### `/userinfo`
+Info about a user.

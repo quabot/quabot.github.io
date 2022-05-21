@@ -1,36 +1,32 @@
 # Moderation Commands
 
-> Last edited: 1/23/2022 at 7:56PM
+> Last edited: 5/21/2022 at 12:55PM
 
-Moderation commands are used to punish members.
+Ban users, warn them and so much more, these are the moderation commands.
 
 #### `/ban [user] (reason)`
-Ban a member from your guild.
+Ban a user.
 
-#### Example
-- `/ban @Wobbe_`
-- `/userinfo @Joa_sss`
+#### `/clear-punishment [user] [id] [punishment]`
+Clear a punishment of a user.
+
+#### `/find-punishment [user] [id] [punishment]`
+Find a punishment of a user.
 
 #### `/kick [user] (reason)`
-Kick a member from your guild.
+Kick a user.
 
-#### `/timeout [user] [duration] (reason)`
-Timeout a member on your guild.
+#### `/tempban [user] [time] (reason)`
+Tempban a user.
 
-#### `/punishments [user] [type]`
-View a member's previous punishments.
-
-#### `/report [user] [reason]`
-Report a member.
-
-#### `/tempban  [user] [time] (reason)`
-Temp ban a member.
+#### `/timeout  [user] [time] (reason)`
+Timeout a user.
 
 #### `/unban  [userid]`
-Unban a member.
+Unban a user.
 
-#### `/warn [warn] [reason]`
-Warn a member.
+#### `/untimeout [user]`
+Un-timeout a user.
 
-#### `/find-punishment [type] [user] (warning-id)`
-Find a punishment.
+#### `/warn [user] (reason)`
+Warn a user.

@@ -2,9 +2,9 @@
 
 > The only discord bot you need.
 
-- Loads of features
-- Loads of commands
-- Loads of updates
+- Over 40 commands
+- Over 40,000 users
+- Loads of updates & features
 
 [Website](https://quabot.net)
-[Documentation](#quabot)
+[Commands](#quabot)

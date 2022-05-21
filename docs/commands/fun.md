@@ -1,32 +1,26 @@
 # Fun Commands
 
-> Last edited: 3/7/2022 at 7:23PM
+> Last edited: 5/20/2022 at 10:12PM
 
-Fun commands are commands used to get funny images, play games and more.
+Play a game, get a meme or ask a question, these are the fun commands.
 
 #### `/8ball`
-Ask a question and get a response.
+Ask a question, get an answer.
 
-#### `/cat`
-Get an image of a cat.
+#### `/brokegamble`
+Gamble, but without money.
 
 #### `/coin`
 Flip a coin.
-
-#### `/dog`
-Get an image of a dog.
-
-#### `/meme`
-Get a meme.
 
 #### `/quiz`
 Play a quiz.
 
 #### `/reddit`
-Get images from subreddits.   
+Get memes or cat and dog images.
 
 #### `/rps`
-Play rock, paper, scissors.
+Play a game of rock, paper, scissors.
 
 #### `/type`
-Play a typing game.
+Play a speed-typing game.
