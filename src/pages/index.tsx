@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function Home(): JSX.Element {
-  window.location.href = '/docs/getting-started';
-  return <></>;
+  useEffect(() => { window.location.href = '/docs/getting-started'; }, []);
+
+  return <p></p>;
 }
