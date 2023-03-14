@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkquabot_docs=self.webpackChunkquabot_docs||[]).push([[538],{2687:e=>{e.exports=JSON.parse('{"title":"Dashboard","slug":"/category/dashboard","permalink":"/docs/category/dashboard","navigation":{"previous":{"title":"Getting Started","permalink":"/docs/getting-started"},"next":{"title":"General Settings","permalink":"/docs/dashboard/general"}}}')}}]);
