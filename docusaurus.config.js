@@ -9,6 +9,7 @@ const config = {
   title: 'QuaBot',
   tagline: 'Documentation',
   favicon: 'img/favicon.ico',
+  deploymentBranch: 'master',
 
   // Set the production url of your site here
   url: 'https://quabot.net',
@@ -77,8 +78,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Getting Started',
+                to: '/docs/getting-started',
               },
             ],
           },
@@ -93,19 +94,6 @@ const config = {
                 label: 'Github',
                 href: 'https://github.com/QuaBot',
               }
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
             ],
           },
         ],
