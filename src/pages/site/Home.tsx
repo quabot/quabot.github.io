@@ -29,7 +29,7 @@ export const HomePage = () => {
             .then(() => {
                 setWebsiteStatus('online');
             }).catch((e) => {
-                setWebsiteStatus('offline');
+                setWebsiteStatus('onlin');
             });
 
         getSocket()

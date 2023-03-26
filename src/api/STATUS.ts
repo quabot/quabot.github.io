@@ -11,7 +11,7 @@ export const getApi = async () =>
     await axios.get(`${API_URL}/status/ping`);
 
 export const getWebsite = async () =>
-    await axios.get(`https://quabot.net`);
+    await axios.get(`https://quabot.net`, { headers: { "Access-Control-Allow-Origin": "*", 'Access-Control-Allow-Credentials': true } });
 
     // YOU ARE NOT ALLOWED TO USE, MODIFY OR DO ANYTHING WITH THIS CODE.
     // THIS CODE IS COPYRIGHTED BY JOA_SSS, 2023
