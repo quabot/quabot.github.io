@@ -1,0 +1,81 @@
+.body-wrapper {
+    min-height: calc(100vh - 100px - 240px);
+    margin: 0px 5.88%;
+}
+
+.status-title {
+    font-size: 40px;
+    margin: 0px;
+    margin-bottom: 6px;
+    transition: 0.2s;
+    margin-top: 35px;
+}
+
+.status-subtitle {
+    color: var(--status-subtitle-page);
+    margin: 0px;
+    transition: 0.2s;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.status-service {
+    border: 2px dotted var(--status-border);
+    transition: 0.2s;
+    border-radius: 10px;
+    background-color: var(--status-background);
+    padding: 26px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.status-service-name {
+    display: flex;
+    align-items: center;
+}
+
+.status-service-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.status-service-subtitle {
+    font-size: 13px;
+    color: var(--status-subtitle);
+    margin: 0px;
+    margin-top: 2px;
+}
+
+.status-service-title-wrapper {
+    margin-left: 19px;
+}
+
+.status-service-state {
+    font-size: 20px;
+    margin: 0px;
+    transition: 0.2s;
+    margin-left: 5px;
+}
+
+.online { color: var(--status-online); }
+.degraded { color: var(--status-degraded); }
+.offline { color: var(--status-offline); }
+.unknown { color: var(--status-unknown); }
+
+.icon {
+    min-width: 40px;
+}
+
+.status-refresh {
+    width: fit-content;
+    transition: 0.2s;
+    color: var(--status-refresh);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* YOU ARE NOT ALLOWED TO USE, MODIFY OR DO ANYTHING WITH THIS CODE.
+  THIS CODE IS COPYRIGHTED BY JOA_SSS, 2023 */
