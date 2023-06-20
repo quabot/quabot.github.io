@@ -20,7 +20,7 @@
 }
 
 .status-service {
-    border: 2px dotted var(--status-border);
+    border: 2px dashed var(--status-border);
     transition: 0.2s;
     border-radius: 10px;
     background-color: var(--status-background);
