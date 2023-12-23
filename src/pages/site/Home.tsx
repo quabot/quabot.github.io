@@ -67,7 +67,7 @@ export const HomePage = () => {
                                 <p className='status-service-subtitle'>Main website & dashboard, accessible from quabot.net</p>
                             </div>
                         </div>
-
+                        <p className='status-service-state degraded'>We are aware of access issues for the QuaBot Dashboard</p><br />
                         {websiteStatus === 'online' && <p className='status-service-state online'>Online</p>}
                         {websiteStatus === 'degraded' && <p className='status-service-state degraded'>Degraded</p>}
                         {websiteStatus === 'offline' && <p className='status-service-state offline'>Offline</p>}
