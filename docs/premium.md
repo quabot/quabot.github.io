@@ -45,6 +45,10 @@ Each update tries to add more premium features, whilst keeping the free tier as 
 
 ## Frequently Asked Questions
 
+:::warning Outdated Information
+Some of the information on this page is outdated as we recently rolled out Premium V2. We had to roll this out quickly so the wiki pages are still a bit behind.
+:::
+
 ### Where do i subscribe?
 
 You can subscribe to premium by using the `/premium` command in your server or by visiting our [premium page](https://quabot.net/premium). You can only pay with a credit card, charged monthly. Payments are handled securely through Stripe.

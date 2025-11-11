@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # The QuaBot Wiki
 
+:::info Message from Developer
+Dear user. You will notice that most of the wiki is still quite empty. Writing all of these wiki pages takes a long time. Feel free to contribute! I'm working as fast as I can to get the wiki expanded, but I'm also working on new updates. It might take a little while. Sorry for the inconvinience! In the meantime, we will help you in our [Discord server](https://discord.quabot.net) with any questions you might have. I do have some help with the wiki, so hopefully this message can be removed soon! ~ Joas
+:::
+
 Welcome to the QuaBot wiki, this wiki is created to help you use QuaBot.
 
 QuaBot is the perfect Discord bot, it has advanced modules ranging from giveaways, reaction roles, logging to applications and so much more.
@@ -55,6 +59,6 @@ QuaBot requires the `QuaBot` role to be above all roles it should manage. This i
 
 ## Contributing
 
-You can contribute to this wiki by visiting the [GitHub repository](https://github.com/quabot/wiki). You can also join our [support server](https://discord.quabot.net) for help and support.
+You can contribute to this wiki by visiting the [GitHub repository](https://github.com/quabot/quabot.github.io). You can also join our [support server](https://discord.quabot.net) for help and support.
 
 This wiki is created by the QuaBot team, with the help of the community. We would like to thank everyone who has contributed to this wiki.

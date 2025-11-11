@@ -2,6 +2,7 @@
   "name": "wiki",
   "version": "0.0.0",
   "private": true,
+  "repository": "https://github.com/quabot/quabot.github.io",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
