@@ -24,7 +24,7 @@ QuaBot will run a checklist on the account, each item gives a certain amount of 
 
 ## Where can i see suspicious accounts?
 
-On the [Security Panel](./security-overview.md.md) you can see a list of all suspicious accounts that joined your server. You will also see what criteria they matched in order to make them suspicious. The suspicious joins and suspicious accounts are two different lists. You can see an example below:
+On the [Security Panel](./security-overview.md) you can see a list of all suspicious accounts that joined your server. You will also see what criteria they matched in order to make them suspicious. The suspicious joins and suspicious accounts are two different lists. You can see an example below:
 
 This is on the security panel, click "View all" to see more information and view the full list of suspicious joins/accounts.
 ![Suspicious Joins Example](../img/Suspicious_List.png)
