@@ -1,5 +1,5 @@
----
-sidebar_position: 1
----
-
 # Logs
+
+:::caution Under construction
+We're still working on completing this page.
+:::
