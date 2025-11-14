@@ -5,7 +5,7 @@ sidebar_position: 1
 # The QuaBot Wiki
 
 :::info Message from Developer
-Dear user. You will notice that most of the wiki is still quite empty. Writing all of these wiki pages takes a long time. Feel free to contribute! I'm working as fast as I can to get the wiki expanded, but I'm also working on new updates. It might take a little while. Sorry for the inconvinience! In the meantime, we will help you in our [Discord server](https://discord.quabot.net) with any questions you might have. I do have some help with the wiki, so hopefully this message can be removed soon! ~ Joas
+Dear user. You will notice that most of the wiki is still quite empty. Writing all of these wiki pages takes a long time. Feel free to contribute! We're working as fast as we can to get the wiki expanded, but we're also working on new updates. It might take a little while. Sorry for the inconvinience! In the meantime, we will help you in our [Discord server](https://discord.quabot.net) with any questions you might have.
 :::
 
 Welcome to the QuaBot wiki, this wiki is created to help you use QuaBot.
