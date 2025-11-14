@@ -1,19 +1,19 @@
-import React from 'react';
-import OriginalLink from '@theme-original/DocSidebarItem/Link';
+import React from "react";
+import OriginalLink from "@theme-original/DocSidebarItem/Link";
 
 export default function LinkWrapper(props) {
   const { item } = props;
 
   // Pas aan als jouw route anders is; startsWith dekt ook subpagina's
   const isPremium =
-    item?.href?.startsWith('/docs/premium') ||
-    item?.docId?.startsWith?.('premium');
+    item?.href?.startsWith("/docs/premium") ||
+    item?.docId?.startsWith?.("premium");
 
   const gradientStyle = {
-    background: 'linear-gradient(90deg, #3d64bb, #ad635f)',
-    WebkitBackgroundClip: 'text',
-    WebkitTextFillColor: 'transparent',
-    display: 'inline-block',
+    background: "linear-gradient(90deg, #3d64bb, #ad635f)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+    display: "inline-block",
     fontWeight: 650,
   };
 

@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Embed Builder
+# Message Builder
 
 The `Embed Builder` is a versatile tool used across many modules, so it's essential to understand how it works.
 
@@ -69,13 +69,13 @@ With these steps, you now know all the settings of the `Embed Builder`.
 The `Embed Builder` also supports a range of useful variables, which can be used in your embed.
 
 Different modules have different available variables, but some are universal.<br/>
+
 <!-- ![Basic Variables](./img/EmbedBuilder-Variables.png) -->
 
-When you enter a variable in your message, it'll automatically be replaced with the appropriate data. 
+When you enter a variable in your message, it'll automatically be replaced with the appropriate data.
 
 - **Static variables**: These can't be changed directly by the user.  
   **Example:** `{server.name}` will show the server's name.
-  
 - **Dynamic variables**: These can be changed based on user input.  
   **Example:** `{@&role_id}` will mention the role based on the role ID you provide.
 

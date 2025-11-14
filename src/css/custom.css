@@ -18,7 +18,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #6b95b6;
   --ifm-color-primary-dark: #5887ac;
   --ifm-color-primary-darker: #5180a5;
@@ -44,7 +44,6 @@
 
 img {
   max-width: 500px;
-  width: 100%;
   border-radius: 8px;
   cursor: pointer;
   margin: 10px 0px;

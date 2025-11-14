@@ -1,6 +1,6 @@
 //* When an image is clicked open a popup overlay
 document.addEventListener("click", function (e) {
-  if (e.target.tagName === "IMG") {
+  if (e.target.tagName === "IMG" && e.target.id !== "navbar-logo") {
     const overlay = document.createElement("div");
     overlay.id = "image-overlay";
     overlay.style.position = "fixed";
