@@ -16,55 +16,57 @@ hide_title: true
   Premium
 </h1>
 
-We recently added our small premium subscription to help support the bot's development and cover costs. Premium is completely optional. You can find our premium policy [here](https://quabot.net/policies) for subscription-related information.
+QuaBot Premium is an optional upgrade that enhances your server with powerful customization options, increased limits, and premium‑only features — all while directly supporting the continued development and hosting of QuaBot. Premium is now purchased directly through Discord’s built‑in payment system, making subscribing simple and secure.
 
-## Why go premium?
+## Why go Premium?
 
-By going premium, you help support the bot's development and cover costs. This allows us to continue improving QuaBot and adding new features based on user feedback. You get access to a number of exclusive features, the full list can be found below. Premium is only $1,99 per month, which is a small price to pay for the added functionality and the support you provide.
+QuaBot Premium unlocks various features and customization options for your server — including removing QuaBot branding, increasing module limits, advanced moderation functionality, and early access to new features.
+
+Premium not only upgrades your server, but also supports ongoing development, hosting, and improvements for all users.
 
 ## Premium Features
 
-View the full list of premium features below:
+Below is a simplified overview of the most important Premium features:
 
-:::note
-Each update tries to add more premium features, whilst keeping the free tier as feature-rich as possible. We view premium as optional support, not a requirement to use the bot.
-:::
+| Feature                                | Free | Premium |
+| -------------------------------------- | ---- | ------- |
+| Custom bot nickname & embed color      | ✔️   | ✔️      |
+| Custom avatar, banner & about‑me       | ❌   | ✔️      |
+| Custom embed footer (remove branding)  | ❌   | ✔️      |
+| Auto‑kick non‑verified users           | ❌   | ✔️      |
+| Starboard limit                        | 2    | 25      |
+| Auto Purge & Auto Delete channel limit | 2    | 10      |
+| Moderation Rules limit                 | 5    | 20      |
+| View suggestion votes                  | ❌   | ✔️      |
+| Early access to new features           | ❌   | ✔️      |
+| Special support server role            | ❌   | ✔️      |
 
-| Feature                                                       | Description                                                                          | Free Tier | Premium Tier |
-| ------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------- | ------------ |
-| **Custom Bot Nickname & Embed Color**                         | Set a custom nickname and embed color for the bot in your server.                    | ✅        | ✅           |
-| **Custom Avatar, Banner and About Me**                        | Set a custom avatar, banner and about me for the bot in your server.                 | ❌        | ✅           |
-| **Custom Embed Footer**                                       | Customize the footer of all embeds sent by the bot.                                  | ❌        | ✅           |
-| **Auto-kick unverified users**                                | Automatically kick users who join without verification after a set period.           | ❌        | ✅           |
-| **Increased Starboard Limit**                                 | Create additional starboards to customize your server.                               | 2         | 25           |
-| **Increased Auto Purge & Auto Delete Messages channel Limit** | Create additional auto purge & auto delete message channels to moderate your server. | 2         | 10           |
-| **View suggestion votes**                                     | View who voted for or against a suggestion.                                          | ❌        | ✅           |
-| **Special Role**                                              | Get a special role in our Discord server.                                            | ❌        | ✅           |
-| **Early Access to Beta Features**                             | Get early access to new features and updates.                                        | ❌        | ✅           |
-| **Ultra Fast Support**                                        | Get priority support in our Discord server.                                          | ✅        | ✅           |
+We're always adding additional features - keeping Free servers and Premium servers balanced in feature quality.
 
 ## Frequently Asked Questions
 
-:::warning Outdated Information
-Some of the information on this page is outdated as we recently rolled out Premium V2. We had to roll this out quickly so the wiki pages are still a bit behind.
-:::
+### How do I subscribe?
 
-### Where do i subscribe?
+You can subscribe directly inside Discord through the QuaBot Store integration. Payments are securely processed by Discord. You can purchase it [here](https://discord.com/discovery/applications/1410349992794787850/store/1437901507809775829).
 
-You can subscribe to premium by using the `/premium` command in your server or by visiting our [premium page](https://quabot.net/premium). You can only pay with a credit card, charged monthly. Payments are handled securely through Stripe.
+### How do I cancel my subscription?
 
-### How do i cancel my subscription?
+You can manage or cancel your subscription at any time in Discord under **User Settings → Subscriptions**. Cancelling will keep your Premium active until the end of the billing cycle.
 
-You can cancel your subscription at any time through the [premium page](https://quabot.net/premium). Your subscription will remain active until the end of the current billing cycle.
+### Is Premium per server?
 
-### Can i buy premium for just one server?
+You purchase a premium subscription for each individual server.
 
-Premium is purchased per server, but you can buy premium for multiple servers if you wish. Each server will have its own subscription that is billed separately on different dates.
+### Can I transfer an active subscription?
 
-### Can someone else manage premium for my server?
+No. Staff cannot assist with this either.
 
-Only you can manage a subscription you started and only staff members (with dashboard access) can start a subscription for a server. Regular users cannot buy premium for a server at this time. Other staff members can still view the premium status and change premium settings, but they cannot cancel or change the subscription on your behalf.
+### Who can manage Premium?
 
-### Any other questions?
+The subscriptions you started can be managed under **User Settings → Subscriptions**.
 
-If you have any questions or issues regarding premium, feel free to join our [Discord server](https://discord.quabot.net) and ask for help. We're always here to assist you!
+### Having issues?
+
+If you experience problems with Premium activation or the Discord payment flow, feel free to contact us via our [support server](https://discord.quabot.net) or by [email](mailto:premium@quabot.net).
+
+View our Terms of Service and Privacy Policy on our [website](https://quabot.net/policies). By subscribing to QuaBot Premium you agree to these terms.

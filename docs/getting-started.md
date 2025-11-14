@@ -114,7 +114,7 @@ Use the options here to reset QuaBot to original settings (only use this if you 
 
 ### Statistics Page
 
-You can read all about statistics on the [Statistics Page](./modules/statistics.md).
+You can read all about statistics on the [Statistics Page](./security/statistics.md).
 
 ### Security Page
 
