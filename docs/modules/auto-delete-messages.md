@@ -22,6 +22,8 @@ Above is the main configuration screen for Auto Delete Messages.
 - **Start/Stop Editing** (green): Open the editor for that channel.
 - **Remove** (blue): Remove the configuration for that channel.
 
+Free servers can setup up to 2 channels and Premium servers up to 20!
+
 ## Editing a Channel
 
 When you click **Start Editing**, you can set:

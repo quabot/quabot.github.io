@@ -35,7 +35,7 @@ Below is a simplified overview of the most important Premium features:
 | Custom embed footer (remove branding)  | ❌   | ✔️      |
 | Auto‑kick non‑verified users           | ❌   | ✔️      |
 | Starboard limit                        | 2    | 25      |
-| Auto Purge & Auto Delete channel limit | 2    | 10      |
+| Auto Purge & Auto Delete channel limit | 2    | 20      |
 | Moderation Rules limit                 | 5    | 20      |
 | View suggestion votes                  | ❌   | ✔️      |
 | Early access to new features           | ❌   | ✔️      |
