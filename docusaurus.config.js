@@ -37,6 +37,10 @@ const config = {
       src: "/js/imageHandler.js",
       async: false,
     },
+    {
+      src: "/js/adsense.js",
+      async: true,
+    },
   ],
 
   presets: [
