@@ -32,9 +32,27 @@ const config = {
     locales: ["en"],
   },
 
+  headTags: [
+    {
+      tagName: "script",
+      innerHTML: "",
+      attributes: {
+        id: "google-analytics",
+      },
+    },
+  ],
+
   scripts: [
     {
       src: "/js/imageHandler.js",
+      async: false,
+    },
+    {
+      src: "https://www.googletagmanager.com/gtag/js?id=G-GS780BQLMF",
+      async: true,
+    },
+    {
+      src: "/js/ga.js",
       async: false,
     },
   ],
