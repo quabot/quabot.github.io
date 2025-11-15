@@ -47,6 +47,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/quabot/quabot.github.io/tree/main",
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -56,7 +58,6 @@ const config = {
   ],
 
   themes: [
-    // ... Your other themes.
     [
       //@ts-ignore
       require.resolve("@easyops-cn/docusaurus-search-local"),
