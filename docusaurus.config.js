@@ -87,8 +87,23 @@ const config = {
             position: "left",
           },
           {
+            to: "/blog",
+            label: "Releases",
+            position: "left",
+          },
+          {
             to: "https://quabot.net",
             label: "Website",
+            position: "left",
+          },
+          {
+            to: "https://invite.quabot.net",
+            label: "Invite",
+            position: "left",
+          },
+          {
+            to: "https://quabot.net/support",
+            label: "Support",
             position: "left",
           },
         ],
