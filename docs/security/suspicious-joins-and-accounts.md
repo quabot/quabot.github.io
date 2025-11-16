@@ -39,3 +39,7 @@ That's up to you! You can choose to ignore them, kick them, ban them or take any
 ## Help us improve this feature!
 
 So please, if you have any feedback or suggestions, let us know in our [support server](https://discord.quabot.net). We appreciate your help in making QuaBot better! Also let us know if we **missed any suspicious users** or if you think some users were **falsely flagged**. This will help us improve our detection system. Thank you in advance, we really appreciate it!
+
+## Need Help?
+
+Join our [Discord server](https://discord.quabot.net) for support, bug reports, and setup help.

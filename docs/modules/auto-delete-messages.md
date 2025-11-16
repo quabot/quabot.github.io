@@ -28,7 +28,7 @@ Free servers can setup up to 2 channels and Premium servers up to 20!
 
 When you click **Start Editing**, you can set:
 
-### **Delay**
+#### Delay
 
 How long the bot should wait before deleting a message.
 
@@ -38,17 +38,17 @@ Examples:
 - `5m`
 - `2h`
 
-### **Minimum Length**
+#### Minimum Length
 
 Delete messages **longer** than this value.  
 Useful for channels that should only contain short comments.
 
-### **Maximum Length**
+#### Maximum Length
 
 Delete messages **shorter** than this value.  
 Useful for removing spam like “?”, “hi”, “ok”, or emojis.
 
-### **Media Only**
+#### Media Only
 
 If enabled, only deletes messages that contain:
 
@@ -75,4 +75,6 @@ No, only main channel messages are filtered.
 
 If you have Action Logs enabled, deletions will appear there.
 
----
+## Need Help?
+
+Join our [Discord server](https://discord.quabot.net) for support, bug reports, and setup help.

@@ -23,21 +23,21 @@ Here’s how to set it up:
 
 ![Overview](../img/BoostMessages-Overview.png)
 
-### 1. Enable Boost Messages
+### Enable Boost Message
 
 Toggle the **Enabled** switch at the top.
 
-### 2. Select a Message Channel
+### Select a Message Channel
 
 Pick the channel where boost messages will be sent. QuaBot will only send boost messages there.
 
-### 3. Customize Your Message
+### Customize Your Message
 
 Click **Edit in Message Builder**  
 → Adjust the text, colors, variables, and formatting as outlined in our [Message Builder Guide](../embed-builder.md).
 → Save your configuration
 
-### 4. Preview
+### Preview
 
 The preview shows what your boost message will look like in Discord.
 
@@ -48,3 +48,7 @@ Joas boosted the server!
 We’re now at 5 boosts and have reached Tier 2 🎉
 Thanks for supporting the community!
 ```
+
+## Need Help?
+
+Join our [Discord server](https://discord.quabot.net) for support, bug reports, and setup help.

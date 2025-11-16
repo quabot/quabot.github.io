@@ -9,7 +9,9 @@ hide_title: true
 Permissions are essential in managing your Discord server and keeping it secure. They allow you to control what members can and cannot do within your server. This guide will help you understand how to set up and manage QuaBot's permissions effectively.
 
 ## Required Permissions
+
 To ensure that QuaBot functions correctly, it needs the following permissions:
+
 - **Manage Server**: Allows QuaBot to manage server settings and configurations, including automod.
 - **Manage Roles**: Enables QuaBot to create, edit, and delete roles as needed for moderation, lockdown, and other features.
 - **Manage Channels**: Allows QuaBot to create, edit, and delete channels for various functionalities such as tickets.
@@ -38,29 +40,38 @@ We highly recommend granting these permissions to ensure that QuaBot can operate
 :::
 
 ## QuaBot Role Position
+
 For QuaBot to manage roles and channels effectively, its role must be positioned above the roles it needs to manage. This is crucial for features like reaction roles, where QuaBot needs to assign or remove roles from members. You can adjust the role position in your server settings under the "Roles" section by dragging the QuaBot role to the appropriate position. You can see an example below:
 
 ![Role Position](./img/Permissions_Position.png)
 
 The QuaBot role is noted as "Being managed by an Integration". Make sure it's above the roles it needs to manage or assign. It can always mention a role (if it has the permission to do so) so if you only mention roles (for example in suggestions or tickets) it does not need to be above them.
 
-
 ## Command Permissions
+
 QuaBot has multiple ways to grant permissions to use certain features and it might be a bit confusing.
+
+:::note Default Permissions
+Some commands are restricted to certain permissions by default by the bot itself, such as `/lockdown` being restricted to **Administrator, Manage Server and Manage Channels**. You can overwrite these default permissions with Discord's Integrations permission manager, as explained [below](#1-handle-permissions-via-integrations). Other commands, such as [Moderation Commands](#2-handle-moderation-permissions-via-quabot-dashboard) are managed by the bot itself and can be controlled by [integration permissions](#1-handle-permissions-via-integrations) as well as the [dashboard](#2-handle-moderation-permissions-via-quabot-dashboard).
+:::
+
 ### 1. Handle permissions via Integrations
+
 You can manage each QuaBot command's permissions via Discord's built-in integration system. This allows you to specify which roles or members can use specific commands. You can even restrict commands to certain channels if needed. Here's how to do it:
+
 1. Go to your server settings and click on Integrations, then select the QuaBot bot.
-![Permissions Select QuaBot](./img/Permissions_Commands.png)
+   ![Permissions Select QuaBot](./img/Permissions_Commands.png)
 
 2. Click on the command you want to manage permissions for out of the list. This list shows all QuaBot commands, excluding subcommands (Eg. /suggestion create will only show /suggestion).
-![Permissions Command List](./img/Permissions_Command_List.png)
+   ![Permissions Command List](./img/Permissions_Command_List.png)
 
 3. From here, you can add or remove roles and members to control who can use the selected command. You can also restrict the command to specific channels by selecting "Only in selected channels" and choosing the desired channels.
 
 ![Permissions Command Manage](./img/Permissions_Command_Manage.png)
 
 ### 2. Handle moderation permissions via QuaBot Dashboard
-For moderation commands, you can/need to manage permissions via the QuaBot Dashboard. This allows you to set up roles that can use moderation commands like kick, ban, mute, etc, as well as permissions that are allowed to use it. Users only need to have one of the roles assigned to them, or have any of the permissions, to be able to use moderation commands. Here's how to set it up:
+
+For moderation commands, you can/need to manage permissions via the QuaBot Dashboard. This allows you to set up roles that can use moderation commands like kick, ban, mute, etc, as well as permissions that are allowed to use it. This allows for more customization and is more accesible for some users. On top of these, the [Discord Permissions](#1-handle-permissions-via-integrations) apply as well. Users only need to have one of the roles assigned to them, or have any of the permissions, to be able to use moderation commands. Here's how to set it up:
 
 1. Visit the configuration page of the Moderation module in the [QuaBot Dashboard](https://quabot.com/dashboard). Not sure how to get there? Check out our [Getting Started Guide](./getting-started.md). Once there, navigate to the "Commands & Permissions" tab.
 
@@ -75,7 +86,9 @@ For moderation commands, you can/need to manage permissions via the QuaBot Dashb
 ![Moderation Commands & Permissions Edit](./img/Permissions_Moderation_Edit.png)
 
 ### 3. Button & Select Menu Permissions
+
 Some commands and modules, like suggestions and some others use buttons and select menus to interact with them. These interactions do not show up in the integration command list and cannot easily be managed. Most of the time these are a part of moderation for example, and they will inherit the required permissions from those commands. Other cases, like suggestions, will use a list of default permissions that the user needs to have to be able to use them. Most of the time these permissions are:
+
 - Administrator
 - Manage Messages
 - Manage Server
@@ -83,4 +96,5 @@ Some commands and modules, like suggestions and some others use buttons and sele
 Each module that uses buttons or select menus will sometimes have a list of permissions that are required to use them in their documentation. If you cannot find it, please reach out to our [support server](https://discord.quabot.net). We hope to replace this with a better system in the future but since we cannot manage these permissions in Discord itself we opted to do this instead of configuring each button and select menu individually.
 
 ## Do you need additional support?
+
 Most commands should have either of these two ways to manage permissions, but some commands might only have one of them. If you have any questions or need help, feel free to reach out to our [support server](https://discord.quabot.net). We're here to help you get the most out of QuaBot!
