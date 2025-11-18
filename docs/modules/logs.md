@@ -1,5 +1,7 @@
 # Logs
 
+Keep track of all server activities and changes with detailed logs that log everything from deleted messages to banned users.
+
 ## Overview
 
 Sometimes, users delete a message that you wish you could stil read. It could've been racist or break the rules and the user should be punished for that! Or they edited their message. Or maybe you want to know who was in a voice channel at a certain time. All of that is possible with the QuaBot Logs module, also known as Action Logs.

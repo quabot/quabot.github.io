@@ -1,5 +1,7 @@
 # Lockdown
 
+Lock or slow down channels to keep your server safe during raids or disruptions.
+
 ## Overview
 
 Imagine this; thousands of users joining your server. All of them bots. Spamming the channels, pinging everyone and making chaos. No way you can ban them all manually, you need to stop the spam right now! That's where our Lockdown module comes in. With this module, you can lock the entire server or specific channels. Stopping spam or messages all together. There are two types of lockdown:

@@ -40,6 +40,20 @@ const config = {
         id: "google-analytics",
       },
     },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "theme-color",
+        content: "#4d7aff",
+      },
+    },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "accent-color",
+        content: "#4d7aff",
+      },
+    },
   ],
 
   scripts: [

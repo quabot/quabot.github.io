@@ -1,5 +1,7 @@
 # Auto Purge
 
+Automatically purge messages in a channel on an interval to keep channels empty.
+
 ## Introduction
 
 Auto Purge automatically removes **all messages** in selected channels after a fixed amount of time.  

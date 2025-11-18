@@ -1,5 +1,7 @@
 # Reaction Roles
 
+Allow users to self-assign roles by clicking buttons, reactions or selecting an item from custom dropdown menus, all customizable.
+
 ## Create reaction role
 
 :::caution Under construction

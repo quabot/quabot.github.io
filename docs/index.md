@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # The QuaBot Wiki
 
-:::info UNDER CONSTRUCTION
-We're still hard at work getting the wiki completed! Feel free to help at our [repository](https://github.com/quabot/quabot.github.io). If you need help, visit our [support server](https://discord.quabot.net).
-:::
-
 Welcome to the QuaBot wiki, this wiki is created to help you use QuaBot.
 
 QuaBot is the perfect Discord bot, it has advanced modules ranging from giveaways, reaction roles, logging to applications and so much more.
+
+:::info UNDER CONSTRUCTION
+We're still hard at work getting the wiki completed! Feel free to help at our [repository](https://github.com/quabot/quabot.github.io). If you need help, visit our [support server](https://discord.quabot.net).
+:::
 
 ## Inviting QuaBot
 

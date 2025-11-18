@@ -1,7 +1,6 @@
 # Boost Messages
 
-Personalize the way your server celebrates boosts.
-Whenever someone boosts your server, QuaBot will automatically send a message to the channel you choose — using your own custom text.
+Celebrate your server boosters with personalized messages that are automatically sent whenever someone boosts your server.
 
 ## How it works
 

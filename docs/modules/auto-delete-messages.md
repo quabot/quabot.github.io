@@ -1,5 +1,7 @@
 # Auto Delete Messages
 
+Automatically delete sent messages in a channel after a set amount of time or filters to keep channels clean.
+
 ## Introduction
 
 Auto Delete Messages automatically cleans up selected channels based on rules you define.  
