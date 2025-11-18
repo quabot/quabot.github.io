@@ -44,14 +44,14 @@ const config = {
       tagName: "meta",
       attributes: {
         name: "theme-color",
-        content: "#4d7aff",
+        content: "#416683",
       },
     },
     {
       tagName: "meta",
       attributes: {
         name: "accent-color",
-        content: "#4d7aff",
+        content: "#416683",
       },
     },
     {
