@@ -1,4 +1,4 @@
-# Ticket
+# Tickets
 
 Using our advanced tickets module you can handle support questions with form-like-questions, automatic role assignments and customizable messages.
 
