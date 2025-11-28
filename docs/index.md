@@ -10,6 +10,8 @@ QuaBot is the perfect Discord bot, it has advanced modules ranging from giveaway
 
 :::info UNDER CONSTRUCTION
 We're still hard at work getting the wiki completed! Feel free to help at our [repository](https://github.com/quabot/quabot.github.io). If you need help, visit our [support server](https://discord.quabot.net).
+
+**Update:** We're ALMOST done! Missing only a few more pages.
 :::
 
 ## Inviting QuaBot
