@@ -4,6 +4,10 @@
 This module is in beta! We're still collecting data and feedback to improve and fine-tune our detection system. Please let us know if you have any suggestions or if you think some users were falsely flagged.
 :::
 
+:::caution This module is in beta:
+Because it is in beta, the documentation is **partly unfinished**, since the module and the submodules **will be updated in a release soon**.
+:::
+
 Whenever a new user joins your server QuaBot will run a few checks on the account to see if it might be suspicious. If it is, you will be able to see a list of suspicious joins on the Security Panel. Additionally, QuaBot will check existing accounts every hour to see if they are suspicious as well. This is useful for catching accounts that were created a while ago but only recently joined your server. This page explains this feature and how it works.
 
 ## What makes an account suspicious?

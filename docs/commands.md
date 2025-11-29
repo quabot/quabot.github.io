@@ -77,3 +77,23 @@ This list of commands is incomplete. You can find a full list of commands by usi
 | /voice mute                  | user                                        | Mute a user in voice channels.                      |
 | /vote                        | –                                           | Vote for QuaBot.                                    |
 | /warn                        | user, reason, duration                      | Warn a member in the server.                        |
+| /ticket add                  | user                                        | Add a user to a ticket.                             |
+| /ticket add-role             | role                                        | Add a role to a ticket (staff only).                |
+| /ticket claim                | –                                           | Claim a ticket.                                     |
+| /ticket close                | –                                           | Close a ticket.                                     |
+| /ticket close-request        | –                                           | Send a close request to the ticket owner.           |
+| /ticket create               | –                                           | Create a ticket.                                    |
+| /ticket delete               | –                                           | Delete a ticket.                                    |
+| /ticket escalate             | –                                           | Escalate a ticket to another panel (staff only).    |
+| /ticket feedback             | –                                           | View ticket feedback statistics.                    |
+| /ticket info                 | ticket                                      | Get information about a ticket.                     |
+| /ticket remove               | user                                        | Remove a user from a ticket.                        |
+| /ticket remove-role          | role                                        | Remove a role from a ticket (staff only).           |
+| /ticket rename               | name                                        | Rename a ticket (staff only).                       |
+| /ticket reopen               | –                                           | Reopen a ticket.                                    |
+| /ticket setup                | –                                           | Setup the tickets module.                           |
+| /ticket stats                | ticket                                      | Get various statistics about a ticket.              |
+| /ticket topic                | topic                                       | Change the ticket topic.                            |
+| /ticket transcript           | ticket                                      | Generate a transcript of a ticket.                  |
+| /ticket transfer             | –                                           | Transfer a ticket to another panel (staff only).    |
+| /ticket unclaim              | –                                           | Unclaim a ticket.                                   |

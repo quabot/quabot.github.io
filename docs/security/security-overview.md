@@ -2,6 +2,10 @@
 
 Welcome to the Security Overview! Here you can find all the important security information about your server in one place. This includes suspicious joins, moderation cases, action logs, automod logs, statistics, verification and dashboard logs. We are looking to expand this page in the future with more security related information and features, but for now this is a good starting point to keep an eye on the security of your server. Let's take a look at each section in more detail.
 
+:::caution This module is in beta:
+Because it is in beta, the documentation is **unfinished**, since the module and the submodules **will be updated in a release soon**.
+:::
+
 ## Joins & Leaves
 
 ### Recent Joins & Leaves
