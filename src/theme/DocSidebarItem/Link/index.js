@@ -10,7 +10,7 @@ export default function LinkWrapper(props) {
     item?.docId?.startsWith?.("premium");
 
   const gradientStyle = {
-    background: "linear-gradient(90deg, #3d64bb, #ad635f)",
+    background: "linear-gradient(90deg, #5a52c6, #32299a)",
     WebkitBackgroundClip: "text",
     WebkitTextFillColor: "transparent",
     display: "inline-block",
