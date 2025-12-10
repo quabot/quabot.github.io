@@ -53,7 +53,7 @@ You can view the Form Answers after the ticket is created. A button is available
 
 With the dropdown, you create a list of pre-defined topics the user needs to choose from to create their ticket. You can add up to 20 different topics to choose from! You can choose the Action Type on the Edit Panel page. You can customize the Dropdown Placeholder, minimum required and maximum required options. If multiple options are selected, they are combined to the ticket topic.
 
-Each option needs a name, description and a value. The value is what is used for the ticket topic. You might want this to be somthing different than the name, which is what is shown to the user.
+Each option needs a name, description and a value. The value is what is used for the ticket topic. You might want this to be somthing different than the name, which is what is shown to the user. You can also add an optional emoji to be shown, this can be a custom emoji from your server.
 
 The dropdown will show below the panel message, allowing users to simply pick their options and create the ticket!
 
@@ -63,7 +63,7 @@ The dropdown will show below the panel message, allowing users to simply pick th
 
 The button is most straight forward of them all. You can have a button below the panel message. When the user clicks, a popup will open for the user to enter their own ticket topic. You can have this be a required value or optional.
 
-The button can be customized! Change the color, text and emoji to anything you'd like.
+The button can be customized! Change the color, text and emoji to anything you'd like. The emoji is optional and can be a custom server emoji.
 
 ![Button](../img/Tickets-Button.png)
 
@@ -94,15 +94,18 @@ Staff teams can do the following:
 - Transfer/Escalate
 - Claim/Unclaim
 
-You can choose to have staff be the only ones to delete or add users to tickets. There is no other customization at this time.
+You can enable the option to allow only staff members to add/remove users to and from tickets.
 
-Each button however, is customizable. There are always various buttons in a ticket, from Claim to Delete. Each button has some permission controls:
+Most permissions for actions (such as close, delete, claim etc.) can be customized and have the following settings:
 
-- **Support Only:** Only the support team can use the button.
-- **Allowed Roles:** Roles that can use the button. (Support team only restrictions still apply)
-- **Blocked Roles:** Roles that **cannot** use the button. (Support team only restrictions still apply)
+- **Support Only:** Only the support team can do the action.
+- **Added Users Blocked:** Blocks users that are not staff or ticket owners from using this.
+- **Allowed Roles:** Roles that can perform the action. (Support team only & Added Users Blocked restrictions still apply)
+- **Blocked Roles:** Roles that **cannot** perform the action. (Support team only & Added Users Blocked restrictions still apply)
 
-We are working on a revamped permissions system. This will be released in a future update (Tickets pt. II)
+Some cannot be changed such as escalate, these actions are, and will remain, staff only. The permissions also automatically apply to the buttons, and can be configured on the buttons page too.
+
+There are also panel-level allowed and blocked roles. These are required or blocked from creating tickets in that panel.
 
 #### (Staff) Threads
 
@@ -152,7 +155,7 @@ All messages related to claiming tickets can be edited!
 
 #### Close Requests
 
-Close Requests allow staff to politely request the user to confirm or deny closing their ticket. The staff member requests a close, which will ping the ticket owner and give them the option to **Close** or **Not close** the ticket.
+Close Requests allow staff to politely request the user to confirm or deny closing their ticket. The staff member requests a close, which will ping the ticket owner and give them the option to **Close** or **Not close** the ticket. The ticket owner will also receive a DM.
 
 - If **accepted**, the ticket closes automatically.
 - If **ignored** the ticket is also closed.
@@ -191,10 +194,16 @@ You can have different ticket events be logged into a dedicated ticket logs chan
 - Ticket Closed
 - Ticket Reopened
 - Transcript Sent (including transcript)
+- Ticket Updated (Topic Changed or Renamed)
 - Ticket Claimed
+- Ticket Unclaimed
 - Ticket Escalated
+- Ticket Transferred
+- Ticket Close Requested
 - User Added to Ticket
 - User Removed from Ticket
+- Role Added to Ticket
+- Role Removed from Ticket
 
 You need to **enable** and configure the **log channel** before events are logged into the channel. They are not saved in our database so it's completely local.
 
@@ -208,6 +217,9 @@ If a user has DMs enabled, you can choose what events and things are sent to the
 - Ticket Reopened
 - Transcript Sent (including transcript)
 - Ticket Claimed
+- Ticket Unclaimed
+- Ticket Escalated
+- Ticket Transferred
 - User Added to Ticket
 - User Removed from Ticket
 
@@ -311,6 +323,7 @@ Each button can be fully customized:
 - Required permissions
 - Allowed / Blocked roles
 - Support‑only mode
+- Added-users blocked
 
 Cooldowns also apply for buttons.
 
@@ -499,7 +512,7 @@ Transcripts always download as `.html` files for safety reasons. To view them pr
 
 ### **Why can't users delete or close tickets?**
 
-The panel might have “Staff only Delete Tickets” enabled, or the relevant buttons may have restricted permissions. Check button-level Allowed/Blocked roles.
+The action might be restricted to staff, blocked for non-owners, or they do not have the required or blocked roles. Configure this on the "Permissions" tab.
 
 ### **My ticket channels appear in the wrong category!**
 
