@@ -59,6 +59,8 @@ You can add a new reaction/option/button, also known as role for users to get by
 - If you have a button: also configure the button option label, basically the text next to the button.
 - If you have a select menu: also configure the select option label & description. These are shown in the dropdown.
 
+We've recently added required/blocked roles to individual role options. These allow you to restrict roles to certain roles. Required roles are the roles the user needs (all of them!) to use the reaction role. Blocked roles only need the user to have one of them to block the entire reaction role.
+
 When you're happy and all the roles have been added, click next. You need to add **at least 1 role**.
 
 ![Edit Example](../img/ReactionRoles-CreateRoles.png)
@@ -68,6 +70,11 @@ When you're happy and all the roles have been added, click next. You need to add
 - Reactions: up to 10.
 - Buttons: up to 5.
 - Dropdown: up to 15.
+
+### Required/Blocked Roles
+
+- You can also set a list of roles the user NEEDS to use the reaction role.
+- The blocked roles, if the user has any of them, prevents the user from using the reaction role.
 
 #### Step 4: Picking the way the roles are given to users
 
