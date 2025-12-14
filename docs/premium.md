@@ -28,18 +28,20 @@ Premium not only upgrades your server, but also supports ongoing development, ho
 
 Below is a simplified overview of the most important Premium features:
 
-| Feature                                | Free | Premium |
-| -------------------------------------- | ---- | ------- |
-| Custom bot nickname & embed color      | ✔️   | ✔️      |
-| Custom avatar, banner & about‑me       | ❌   | ✔️      |
-| Custom embed footer (remove branding)  | ❌   | ✔️      |
-| Auto‑kick non‑verified users           | ❌   | ✔️      |
-| Starboard limit                        | 2    | 25      |
-| Auto Purge & Auto Delete channel limit | 2    | 20      |
-| Moderation Rules limit                 | 5    | 20      |
-| View suggestion votes                  | ❌   | ✔️      |
-| Early access to new features           | ❌   | ✔️      |
-| Special support server role            | ❌   | ✔️      |
+| Feature                                  | Free | Premium |
+| ---------------------------------------- | ---- | ------- |
+| Custom bot nickname & embed color        | ✔️   | ✔️      |
+| Custom avatar, banner & about‑me         | ❌   | ✔️      |
+| Custom embed footer (remove branding)    | ❌   | ✔️      |
+| Auto‑kick non‑verified users             | ❌   | ✔️      |
+| Statistic Channel near real-time updates | ❌   | ✔️      |
+| Statistic Channel limit                  | 5    | 15      |
+| Auto Purge & Auto Delete channel limit   | 2    | 20      |
+| Moderation Rules limit                   | 5    | 20      |
+| Starboard limit                          | 2    | 25      |
+| View suggestion votes                    | ❌   | ✔️      |
+| Early access to new features             | ❌   | ✔️      |
+| Special support server role              | ❌   | ✔️      |
 
 We're always adding additional features - keeping Free servers and Premium servers balanced in feature quality.
 
