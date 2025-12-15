@@ -24,7 +24,8 @@ To ensure that QuaBot functions correctly, it needs the following permissions:
 - **Create Public Threads**: Allows QuaBot to create public threads for discussions, tickets and suggestions.
 - **Create Private Threads**: Allows QuaBot to create private threads for discussions, tickets and suggestions.
 - **Send Messages in Threads**: Enables QuaBot to send messages in threads for communication and notifications.
-- **Manage Messages**: Allows QuaBot to delete messages, pin messages, and manage messages for moderation purposes.
+- **Manage Messages**: Allows QuaBot to delete messages and manage messages for moderation purposes.
+- **Pin Messages**: Allows QuaBot to pin messages, used for various functions including pinning messages in tickets.
 - **Manage Threads**: Allows QuaBot to archive, unarchive, and delete threads for better organization.
 - **Embed Links**: Allows QuaBot to send embedded links in messages for better presentation.
 - **Attach Files**: Enables QuaBot to attach files in messages for sharing documents and images.
