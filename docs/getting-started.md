@@ -70,12 +70,12 @@ There are a couple of ways to navigate around the dashboard. In the image below 
 ![Navigating](./img/GettingStarted-Navigation.png)
 
 1. Using the **QuaBot Dashboard Logo** (outlined in white), you can return to the main QuaBot site by clicking on the part of the logo that just says "QuaBot". Clicking on the "Dashboard" text opens the Server Selection page. The arrow to the left returns you to the next page (if there is one). This is always visible.
-2. Using the **tabs** (outlined in red), you can navigate to the different tabs of the dashboard. These are always visible. We will go over each of these tabs later. When you are on one of these tabs they have a different color to differentiate them. (As seen on the "Overview" tab)
+2. Using the **sidebar** (outlined in red), you can select the different modules and pages you want to visit. They are divided into seperate tabs and categories, the Overview category are the pages we will explain in this article. Below it, the modules are divided into categories and placed in a list.
 3. Clicking on your **Username** in the top right (outlined in green), you can open a dropdown with some additional settings. You will see the user you are logged in as, you can select a different theme (Light, Dark, Dark (Light) and Dark (blue)). You can directly visit the wiki (in a new tab), and log out of the dashboard. An example is shown below. This tab is always available, as long as you are logged in.
 
    ![Navigating Username](./img/GettingStarted-NavigationUsername.png)
 
-4. Using the **Select Server** bar (outlined in yellow), you can easily see what server you are configuring at this time. You can also easily go back to the server selection page. This bar is only visible when a server is selected, so not on the Servers page.
+4. Using the **Server Name** (outlined in yellow), you can easily see what server you are configuring at this time. You can also easily go back to the server selection page by clicking on it. This bar is only visible when a server is selected, so not on the Servers page.
 
 Hopefully this made you understand how to navigate the QuaBot dashboard. Next up, we'll take a look at each of the tabs.
 
@@ -92,13 +92,13 @@ The overview page is the page you can view as the hub of the QuaBot dashboard, o
 
 - Updates Channel: QuaBot might occisionally send messages to this channel regarding major bot updates, big changes or premium-related status updates. We only send a few messages per year, so don't expect any spam from us.
 
-#### Recent Logs
-
-Shows a list of the last few [Dashboard Logs](#logs-page) with the ability to view them all.
-
 #### Recent News
 
 Shows 3 of the newest news articles for you to read. These are mostly about bot updates or future updates and changes.
+
+#### Recent Logs
+
+Shows a list of the last few [Dashboard Logs](#logs-page) with the ability to view them all.
 
 #### Customize QuaBot (Premium only)
 
@@ -120,7 +120,34 @@ You can read all about statistics on the [Statistics Page](./security/statistics
 
 You can read all about security on the [Security Overview Page](./security/security-overview.md).
 
+### Issues & Errors Page
+
+During regular operation, the bot may encounter issues that can be resolved by server administrators, such as missing permissions, deleted channels, or misconfigured modules. When this happens, the Issues & Errors page appears and provides an overview of all detected issues, including quick links to fix them. The page shows up only if 1 or more errors have been created! If your server is setup correctly, the tab will not be available.
+
+![Issues Errors Sidebar](./img/GettingStarted-IssuesErrorsSidebar.png)
+
+When you open the page you will be greeted with the following screen:
+
+![Issues Page](./img/GettingStarted-IssuesErrors.png)
+
+This shows the list of issues. Let's go over an error/issue in detail below.
+
+![Issue](./img/GettingStarted-Issue.png)
+
+- **The issue (outlined in red):** This shows what the issue is with an icon to identify the issue.
+- **The severity of the issue (outlined in yellow):** There are 4 categories: informational, warnings, errors and critical errors. These are used to show how serious the issue is. It also shows how many times the issue has occured so far and the last time it occured.
+- **Role, Channel and User ID**: These are used to provide additional context. They show which role or channel is currently configured and which user ID triggered the issue, for example the user the bot could not assign a role to. If a role or channel exists, its current name is displayed. Otherwise, the ID or configured value is shown. This information can be used to verify whether the role or channel exists and to determine the steps needed to resolve the issue.
+- **Date**: This is shown below at the bottom and shows when the issue was first created.
+- **Mark as resolved (outlined in green):** Quickly mark the issue as resolved. It will not show up in the list anymore. If the issue were to happen again, the issue is marked as unresolved and it will be moved to the top of the list.
+- **Read More:** Opens a link to the wiki [page with common issues](./common_issues.md). This can help you fix the issue by explaining the specific issue in detail.
+
+Issues need to be marked as resolved to be removed from the list and from the sidebar. If you have any questions about this page or the issues shown [contact us!](#do-you-need-additional-support)
+
 ### Modules Page
+
+:::info This page is getting removed soon
+We recently updated the dashboard by adding a sidebar for navigation! This replaces the modules page which is currently only accessible by navigating directly. It has been removed from the sidebar and will be removed soon.
+:::
 
 - On the modules page you will find a full list of modules that you can use and configure for QuaBot. You can begin configuring a module by pressing the **Configure button** (outlined in red). You will then be taken to the configuration page for that modules. Read more about each module [here](./category/modules).
 - You can press the **icon** for each module (outlined in green) to enable or disable them. When a module is black/white it's disabled, if it has color it's enabled.
@@ -169,3 +196,7 @@ If you've reached the bottom of the list, you can use the button ("Load More") o
 ![Logs](./img/GettingStarted-Logs.png)
 
 That's it! You're ready to get started using QuaBot. View the sidebar for more information about [Permissions](./permissions.md), [Commands](./commands.md) or to view the [Modules](./category/modules). If you have any questions, please ask in our [support server](https://support.quabot.net).
+
+## Do you need additional support?
+
+Most commands should have either of these two ways to manage permissions, but some commands might only have one of them. If you have any questions or need help, feel free to reach out to our [support server](https://discord.quabot.net). We're here to help you get the most out of QuaBot!

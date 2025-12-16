@@ -153,8 +153,8 @@ Likely not. It should still work in the final message. If not, please contact us
 
 ---
 
-## Need help?
+## Do you need additional support?
 
-Visit our [Discord server](https://discord.quabot.net)! Our support team is ready to assist you.
+Most commands should have either of these two ways to manage permissions, but some commands might only have one of them. If you have any questions or need help, feel free to reach out to our [support server](https://discord.quabot.net). We're here to help you get the most out of QuaBot!
 
 ---
