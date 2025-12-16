@@ -34,7 +34,7 @@ To ensure that QuaBot functions correctly, it needs the following permissions:
 - **Mute Members**: Allows QuaBot to mute members in voice channels for moderation purposes.
 - **Move Members**: Allows QuaBot to move members between voice channels for moderation purposes.
 
-We highly recommend granting these permissions to ensure that QuaBot can operate smoothly and provide all its features. You can also give QuaBot Administrator permissions, which will automatically grant all the necessary permissions, although this is not required.
+We highly recommend granting these permissions to ensure that QuaBot can operate smoothly and provide all its features. You can also give QuaBot Administrator permissions, which will automatically grant all the necessary permissions, although this is not required, and not enabled by default if you installed the bot after Dec 15, 2025.
 
 :::caution Warning
 **Never give Administrator permissions to bots or users you do not trust.** Administrator permissions allow full control over the server, which can lead to potential security risks if misused.
@@ -47,6 +47,12 @@ For QuaBot to manage roles and channels effectively, its role must be positioned
 ![Role Position](./img/Permissions_Position.png)
 
 The QuaBot role is noted as "Being managed by an Integration". Make sure it's above the roles it needs to manage or assign. It can always mention a role (if it has the permission to do so) so if you only mention roles (for example in suggestions or tickets) it does not need to be above them.
+
+**The bot can only assign roles to members if the bot's role is ABOVE the top role of that member.**
+
+Example:
+
+> John has the Member role with is the 5th role. QuaBot's role is 4th, it cannot assign any roles to John.
 
 ## Command Permissions
 
