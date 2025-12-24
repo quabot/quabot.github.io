@@ -123,7 +123,7 @@ You can read all about security on the [Security Overview Page](./security/secur
 ### Issues & Errors Page
 
 :::caution This feature is not available for all modules
-We are still working on applying these changes to all our modules. For now only a small subset of the modules will log their errors to this new page. We are working on expanding this to all of QuaBot soon!
+We are still working on applying these changes to all our modules. For now only a subset of the modules will log their errors to this new page. We are working on expanding this to all of QuaBot soon! This message will be removed when all modules have been added. Expected early 2026.
 :::
 
 During regular operation, the bot may encounter issues that can be resolved by server administrators, such as missing permissions, deleted channels, or misconfigured modules. When this happens, the Issues & Errors page appears and provides an overview of all detected issues, including quick links to fix them. The page shows up only if 1 or more errors have been created! If your server is setup correctly, the tab will not be available.
