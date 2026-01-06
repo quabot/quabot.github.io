@@ -1,11 +1,11 @@
 import React from "react";
 
 const Home = () => {
-	React.useEffect(() => {
-		window.location.href = '/docs';
-	}, []);
+  React.useEffect(() => {
+    window.location.href = "/docs";
+  }, []);
 
-	return <></>;
-}
+  return <></>;
+};
 
 export default Home;
