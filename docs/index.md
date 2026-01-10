@@ -2,11 +2,13 @@
 sidebar_position: 1
 ---
 
-# The QuaBot Wiki
+# Welcome to QuaBot
 
-Welcome to the QuaBot wiki, this wiki is created to help you use QuaBot.
+> Need help getting started? [Visit the Getting Started page!](./getting-started.md) This page explains how to invite QuaBot.
 
-QuaBot is the perfect Discord bot, it has advanced modules ranging from giveaways, reaction roles, logging to applications and so much more.
+Welcome to the QuaBot wiki, this wiki is created to help you use QuaBot and explain it's features.
+
+QuaBot is the perfect Discord bot, it has advanced modules ranging from giveaways, reaction roles, logging and so much more.
 
 ## Inviting QuaBot
 

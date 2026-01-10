@@ -2,10 +2,6 @@
 
 Using our advanced tickets module you can handle support questions with form-like-questions, automatic role assignments and customizable messages.
 
-:::info NEW!
-Tickets are a recent addition and one of the most awaited features for QuaBot. Be sure to leave us feedback on how to improve it on [our Discord server](https://discord.quabot.net).
-:::
-
 ## Overview
 
 Tickets are the perfect way to handle support and questions people have. Users can create a private support ticket, a private channell, to talk with support. Support teams have a varietey of advanced tools and automations at their disposal to make managing this ticket as easy as possible. In this article, we will go over each functionality of the Tickets module and explain how they work and what they do. Let's get started!
