@@ -26,22 +26,23 @@ Premium not only upgrades your server, but also supports ongoing development, ho
 
 ## Premium Features
 
-Below is a simplified overview of the most important Premium features:
-
-| Feature                                  | Free | Premium |
-| ---------------------------------------- | ---- | ------- |
-| Custom bot nickname & embed color        | ✔️   | ✔️      |
-| Custom avatar, banner & about‑me         | ❌   | ✔️      |
-| Custom embed footer (remove branding)    | ❌   | ✔️      |
-| Auto‑kick non‑verified users             | ❌   | ✔️      |
-| Statistic Channel near real-time updates | ❌   | ✔️      |
-| Statistic Channel limit                  | 5    | 15      |
-| Auto Purge & Auto Delete channel limit   | 2    | 20      |
-| Moderation Rules limit                   | 5    | 20      |
-| Starboard limit                          | 2    | 25      |
-| View suggestion votes                    | ❌   | ✔️      |
-| Early access to new features             | ❌   | ✔️      |
-| Special support server role              | ❌   | ✔️      |
+| Feature                                    | Free                 | Premium              |
+| ------------------------------------------ | -------------------- | -------------------- |
+| Bot Branding                               | Embed color          | Fully customizable   |
+| Embed Footers                              | Locked               | Customizable         |
+| View Suggestion Votes                      | ❌                   | ✅                   |
+| Unverified User Auto‑Kick                  | ❌                   | ✅                   |
+| Max Moderation Rules                       | 5                    | 20                   |
+| Max Statistic Channels **NEW!**            | 5                    | 15                   |
+| Statistic Channel Update Interval **NEW!** | 30 minutes or higher | 10 minutes or higher |
+| Starboards                                 | 2                    | 25                   |
+| Reaction Roles                             | 3                    | 50                   |
+| Temporary Reaction Roles **NEW!**          | ❌                   | ✅                   |
+| Max RR Buttons per Message **NEW!**        | 5                    | 25                   |
+| Max RR Options per Select Menu **NEW!**    | 15                   | 25                   |
+| Max RR Reactions per Message **NEW!**      | 10                   | 20                   |
+| Auto Delete / Auto Purge Rules             | 3                    | 50                   |
+| Beta Features                              | No access            | Early access         |
 
 We're always adding additional features - keeping Free servers and Premium servers balanced in feature quality.
 
