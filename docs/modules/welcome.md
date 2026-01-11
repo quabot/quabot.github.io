@@ -11,7 +11,7 @@ The welcomer module is the perfect toolkit to welcome everyone to your server. M
 ### Join & Leave Messages
 
 - **Join Messages**: When a user joins your server, QuaBot can send a custom message to any channel! This is to announe the user's join. This message supports variables, embeds and even a join card! Customize it all to your liking.
-- **Leave Messages:** The same as join messages, except they send when a user leaves the server.
+- **Leave Messages:** The same as join messages, except they are sent when a user leaves the server.
 - **Join DMs:** Send the user a private DM (if possible) with a join card, and a fully custom mesage.
 
 All these messages support variables to show the server's membercount, username and more! To learn more about the card builder visit the [welcome card builder section](#card-builder) below.
@@ -103,8 +103,7 @@ If a DM fails, the join message in the server will still send normally.
 
 ### **Can I customize the join card for each channel separately?**
 
-No. Join, leave, and DM cards all use the card builder settings you configure in the dashboard.  
-However, you _can_ use different messages per channel.
+Yes you can give custom designs for each join/leave message or dm.
 
 ### **Why does my join card look slightly different than the preview?**
 
