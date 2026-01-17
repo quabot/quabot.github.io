@@ -36,6 +36,10 @@ That means the bot does not have the **Manage Messages** permission (in the chan
 
 That means the bot does not have the **Manage Channels** permission and cannot edit the channel. Ensure the [Permissions](./permissions.md) are setup correctly and the bot has the permission through (one of) it's roles or the channel. If the bot needs to edit Role-specific permissions for a channel, for lockdown commands for example, it also needs **Manage Roles**. More information about Discord Permissions can be found in [Discord's official FAQ here](https://support.discord.com/hc/en-us/articles/206029707-Setting-Up-Permissions-FAQ). If the issue persists, [contact us](#do-you-need-additional-support).
 
+### Lacks permissions to create or delete threads
+
+That means the bot cannot **Manage threads** in the channel it's trying to create or delete threads in. Ensure the [Permissions](./permissions.md) are setup correctly and the bot has the permission through (one of) it's roles or the channel. More information about Discord Permissions can be found in [Discord's official FAQ here](https://support.discord.com/hc/en-us/articles/206029707-Setting-Up-Permissions-FAQ). If the issue persists, [contact us](#do-you-need-additional-support).
+
 ## Moderation
 
 ### Lacks permissions to ban users
