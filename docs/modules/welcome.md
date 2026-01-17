@@ -20,11 +20,19 @@ All these messages support variables to show the server's membercount, username 
 
 ### Join Roles
 
-Give any number of roles to users that join your server, to have all members with a members role. This can be used in conjunction with the [Verification Module](./verification.md).
+:::caution This section is moving!
+We have moved Join Roles & Timed roles to the [Auto Role](./auto-role) module.
+:::
+
+Give any number of roles to users that join your server, to have all members with a members role. This can be used in conjunction with the [Verification Module](./verification).
 
 ![Roles](../img/Welcomer-Roles.png)
 
 ### Timed Roles
+
+:::caution This section is moving!
+We have moved Join Roles & Timed roles to the [Auto Role](./auto-role) module.
+:::
 
 You can give/remove roles to and from users a while after they joined with Timed Roles. You can add up to 10 timed roles and you can customize the following:
 
