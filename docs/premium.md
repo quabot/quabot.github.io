@@ -42,6 +42,7 @@ Premium not only upgrades your server, but also supports ongoing development, ho
 | Max RR Options per Select Menu **NEW!**    | 15                   | 25                   |
 | Max RR Reactions per Message **NEW!**      | 10                   | 20                   |
 | Auto Delete / Auto Purge Rules             | 3                    | 50                   |
+| Linked Role Limit                          | 10                   | 100                  |
 | Beta Features                              | No access            | Early access         |
 
 We're always adding additional features - keeping Free servers and Premium servers balanced in feature quality.
