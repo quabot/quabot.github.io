@@ -36,3 +36,18 @@ You can choose your tag in the user profile settings:
 
 - If your server's boosts run out the roles will **not** be removed and it will only be removed once the user clears or changes their tag. This is because your server is still their 'Primary server'.
 - You need boost tier 2 to configure a server tag.
+
+## Sticky Roles
+
+When a user re-joins the server and Sticky Roles is enabled, QuaBot will restore their roles to how they were before.
+
+You have two settings to configure for Sticky Roles:
+
+- **Enable Sticky Roles**: if disabled roles are not restored
+- **Sticky Roles**: a list of roles to restore upon re-join. If the list is empty, all roles are restored. If roles are defined, only those roles are restored.
+
+![Sticky Roles](../img/AutoRole-StickyRoles.png)
+
+## Need Help?
+
+Join our [Discord server](https://discord.quabot.net) for support, bug reports, and setup help.
