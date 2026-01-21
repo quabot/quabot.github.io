@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # Welcome to QuaBot
 
+:::info We have a question...
+We're looking for feedback to improve QuaBot! If you want, please fill out this form: https://forms.gle/iuencB9DFmc74QED9. It will only take a few minutes and it helps us a lot!
+:::
+
 > Need help getting started? [Visit the Getting Started page!](./getting-started.md) This page explains how to invite QuaBot.
 
 Welcome to the QuaBot wiki, this wiki is created to help you use QuaBot and explain it's features.
