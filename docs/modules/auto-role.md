@@ -15,14 +15,29 @@ You can give/remove roles to and from users a while after they joined with Timed
 - The role to add/remove
 - The action (Remove/Add)
 - The after - after how long the role should be added/removed.
+- DM Notifications - send a dm to the user when the roles are added or removed.
+  - Message - the message that is sent.
+- Message Notifications - send a message in the server when roles are added or removed.
+  - Message Channel - the channel that the message will be sent in.
+  - Message - the message that will be sent.
 
 This can be used to give users more roles the longer they are in the server!
 
-![Timed](../img/Welcomer-Timed.png)
+![Timed](../img/AutoRole-Timed.png)
+
+![Timed Messages](../img/AutoRole-TimedMessageNotifications.png)
 
 ## Server Tag Roles
 
 You can give users a number of role(s) when they display your server's tag next to their name.
+
+You can also send a custom DM or a custom message to any channel in the server when the tag roles are given to a user. The following settings are available:
+
+- DM Notifications Enabled
+- DM Message
+- Server message enabled
+- Server message channel
+- Server message to send
 
 ![Tag Example](../img/AutoRole-TagExample.png)
 

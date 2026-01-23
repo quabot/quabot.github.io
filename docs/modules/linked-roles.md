@@ -22,6 +22,8 @@ You can add a linked role at the bottom of the page as outlined in red below. Yo
 - **Blocked Roles**: the roles that the user cannot have in order to add/remove the roles. If the user has any of these, the roles are not changed.
 - **Add Roles**: the roles that are added if the above conditions are met.
 - **Remove Roles**: the roles that are removed if the above conditions are met.
+- **DM Notification Enabled**: send a dm to the user when the linked roles are applied.
+- **Message Notifications Enabled**: send a message in the server when the linked roles are applied.
 
 ## Frequently Asked Questions
 
