@@ -121,6 +121,76 @@ All options can also be delayed up to 5 minutes.
 
 ## Join Guard
 
+Join Guard allows you to automatically take action when users join your server based on specific account or profile characteristics. This helps protect your server from raids, bots and suspicious accounts.
+
+### Overview
+
+A Join Guard consists of:
+
+- Filters: What to check when a user joins
+- Actions: What to do if ALL those filters are passed
+
+You can create multiple Join Guards, each with their own logic and actions.
+
+![Join Guards](../img/Automod-JoinGuard.png)
+
+### Filters
+
+You can configure one or more filter per Join Guard. If all filters are met, the actions will be executed.
+
+Available filter types:
+
+- Account Younger Than: Triggers if the account is newer than a specified duration
+- Account Older Than: Triggers if the account is older than a specified duration
+- No Avatar: Triggers if the user has no profile picture
+- Generated Name: Detects usernames that look automatically generated
+- Name Contains: Triggers if the username contains specific words
+- Guild Tag: Triggers if the user has certain tags in their profile
+- Unverified App: Detects accounts created via unverified applications
+
+Some filters (like account age or name contains) allow additional configuration such as duration or word lists. This is done via a popup, same as [Words & Lists from Advanced Automod](#links-words--caps-filters),
+
+### Actions
+
+If the conditions are met, the following actions can be executed:
+
+| Name            | Description                                        |
+| --------------- | -------------------------------------------------- |
+| Send DM         | Send a message to the user                         |
+| Add Role        | Add one or more roles to the user                  |
+| Remove Role     | Remove roles from the user                         |
+| Set Roles       | Replace all roles with a new set                   |
+| Warn User       | Give the user a warning                            |
+| Timeout User    | Temporarily restrict the user                      |
+| Kick User       | Remove the user from the server                    |
+| Ban User        | Ban the user (optionally temporary)                |
+| Report to Staff | Notify staff in a configured channel with a reason |
+
+All actions support optional delays, allowing you to wait before executing them.
+
+### How it works
+
+When a user joins your server:
+
+1. All enabled Join Guards are checked
+2. Filers are evaluated
+3. If the conditions pass, the configured actions are executed
+
+This allows you to create anything from simple protections (like blocking new accounts) to more advanced systems combining multiple checks.
+
+### Example
+
+Example Join Guard:
+
+- Filter: Account younger than 1 day
+- Filter: No avatar
+- Action: Timeout user
+- Action: Report to staff
+
+This will automatically detect suspicious new accounts and take action immediately.
+
+Join Guards are powerful and flexible, and are especially useful for preventing raids and filtering out low-quality or automated accounts.
+
 ## Need Help?
 
 Join our [Discord server](https://discord.quabot.net) for support, bug reports, and setup help.
