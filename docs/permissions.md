@@ -12,6 +12,11 @@ Permissions are essential in managing your Discord server and keeping it secure.
 
 To ensure that QuaBot functions correctly, it needs the following permissions:
 
+:::caution IMPORTANT
+We recently added the 'View Audit Log' as a required permission. This will be used for additional moderation features, please enable this permission for the QuaBot role to unlock QuaBot's full potentional. It will continue to work without this permission.
+:::
+
+- **View Audit Log**: Allows QuaBot to view additional logs for moderation purposes.
 - **Manage Server**: Allows QuaBot to manage server settings and configurations, including automod.
 - **Manage Roles**: Enables QuaBot to create, edit, and delete roles as needed for moderation, lockdown, and other features.
 - **Manage Channels**: Allows QuaBot to create, edit, and delete channels for various functionalities such as tickets.
