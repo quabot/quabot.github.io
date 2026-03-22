@@ -28,6 +28,8 @@ All modules are configured using a similar interface:
 
 Each of these buttons is explained in more detail below.
 
+![Advanced Overview](../img/Automod-AdvancedOverview.png)
+
 ### Rules
 
 The automod is based on rules. You can add a rule by clicking <span style={{color: 'lightgreen'}}>+ Add Rule</span>. There you can configure the settings for that rule, such as how many messages should be flagged within the timespan. You have the following options:
@@ -69,8 +71,6 @@ You can configure the roles and channels that are blocked or included for the au
 - Include channels/roles. Automod checks no channels/roles, only these.
 
 This is configured in the popup, and will be saved automatically when closing.
-
-![Advanced Overview](../img/Automod-AdvancedOverview.png)
 
 ### Links, words & Caps Filters
 
